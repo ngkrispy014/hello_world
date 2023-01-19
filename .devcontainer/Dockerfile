@@ -6,6 +6,8 @@ RUN apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
+RUN apt-get install git
+
 RUN mkdir /home/codespace
 WORKDIR /home/codespace
 

@@ -40,11 +40,7 @@ dependencies:
     git:
       url: https://github.com/ngkrispy014/sample_flutter_package.git
       ref: master
-  components:
-    git:
-      url: https://dev.azure.com/blastasiadevops/baiaccelerator/_git/xamun_flutter
-      ref: master
-      path: packages/components
+
       
 dev_dependencies:
   flutter_test:
